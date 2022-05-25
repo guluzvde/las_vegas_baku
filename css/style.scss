@@ -1,0 +1,103 @@
+$esasfon: #212635;
+$font1: 'esas';
+$font2: 'ikincil';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+
+
+    #navbar{
+    display: flex;
+    background-color: $esasfon;
+    height: 5rem;
+    justify-content: center;
+    .container{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem;
+        .content{
+            display: flex;
+            align-items: center;
+            gap: 3rem;
+            .linkler{
+
+                ul{
+                    list-style-type: none;
+                    display: flex;
+                    li{
+                        padding: 1rem;
+                        a{
+                            text-decoration: none;
+                            color: goldenrod;
+                            font-size: 0.8rem;
+                        }
+                    }
+                }
+            }
+            .icon{
+                
+                ul{
+                    list-style-type: none;
+                    display: flex;
+                    li{
+                        i{
+                            padding: 0.25rem;
+                            color: goldenrod;
+                        }
+                        padding: 1rem;
+                        a{
+                            text-decoration: none;
+                            color: goldenrod;
+                            font-size: 0.8rem;
+                        }
+                    }
+                }
+            }
+        }
+       
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+      img{
+          height: 5rem;
+      }
+    }
+}
+}
+#main{
+    .main{
+        background-image: url(../assets/img/bg2.jpg);
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        // justify-content: center;
+        align-items: center;
+        .endirim{
+            padding-left: 5%;
+            h2{
+                font-family: $font1;
+                font-size: 1.5rem;
+                color: $esasfon;
+            }
+            p{
+                color: $esasfon;
+                font-family: $font1;
+                font-size: 2.5rem;
+                span{
+                    color: red;
+                    font-size: 4rem;
+                }
+            }
+        }
+    }
+    
+}

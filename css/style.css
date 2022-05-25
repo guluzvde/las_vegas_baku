@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navbar #navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #212635;
+  height: 5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar #navbar .container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem;
+}
+
+.navbar #navbar .container .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 3rem;
+}
+
+.navbar #navbar .container .content .linkler ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar #navbar .container .content .linkler ul li {
+  padding: 1rem;
+}
+
+.navbar #navbar .container .content .linkler ul li a {
+  text-decoration: none;
+  color: goldenrod;
+  font-size: 0.8rem;
+}
+
+.navbar #navbar .container .content .icon ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar #navbar .container .content .icon ul li {
+  padding: 1rem;
+}
+
+.navbar #navbar .container .content .icon ul li i {
+  padding: 0.25rem;
+  color: goldenrod;
+}
+
+.navbar #navbar .container .content .icon ul li a {
+  text-decoration: none;
+  color: goldenrod;
+  font-size: 0.8rem;
+}
+
+.navbar #navbar .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar #navbar .logo img {
+  height: 5rem;
+}
+
+#main .main {
+  background-image: url(../assets/img/bg2.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#main .main .endirim {
+  padding-left: 5%;
+}
+
+#main .main .endirim h2 {
+  font-family: "esas";
+  font-size: 1.5rem;
+  color: #212635;
+}
+
+#main .main .endirim p {
+  color: #212635;
+  font-family: "esas";
+  font-size: 2.5rem;
+}
+
+#main .main .endirim p span {
+  color: red;
+  font-size: 4rem;
+}
+/*# sourceMappingURL=style.css.map */
